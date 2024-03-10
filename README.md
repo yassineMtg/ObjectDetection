@@ -134,3 +134,9 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+## Milestone 3
+
+- **Data Validation**: Implemented TensorFlow Data Validation (TFDV) to ensure the quality of input data, identify any anomalies, and validate the data schema.
+- **Data Pipeline**: Set up a robust data pipeline using TensorFlow Transform (TFT) for efficient data preprocessing and feature engineering.
+- **Feature Store**: Integrated a feature store for consistent feature management and to facilitate the machine learning pipeline's feature serving needs.

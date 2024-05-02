@@ -161,6 +161,11 @@ Developed a responsive front-end application using React.js to display real-time
 
 ![Alt text](./frontendcode.png)
 
+
+Result:
+
+![Alt text](./fedemo.png)
+
 - **Containerization**:
 
 Packaged the application and model using Docker to streamline deployment and ensure consistency across different environments.
@@ -168,6 +173,10 @@ Packaged the application and model using Docker to streamline deployment and ens
 
 ## Milestone 6: CI/CD Pipeline Integration
 
+CI/CD pipeline Script:
 
+![Alt text](./cicdscript.png)
 
+YAML file:
 
+![Alt text](./cicdusage.png)

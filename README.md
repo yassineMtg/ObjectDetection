@@ -179,8 +179,7 @@ Result:
 
 - **Containerization**:
 
-Packaged the application and model using Docker to streamline deployment and ensure consistency across different environments.
-
+![Alt text](containarization.png)
 
 ## Milestone 6: CI/CD Pipeline Integration
 

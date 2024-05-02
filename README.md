@@ -1,11 +1,11 @@
 # Face Sentiment Detection System
 ==============================
 
-A state-of-the-art Face Sentiment Detection system that employs machine learning to accurately recognize and analyze facial expressions for emotion detection. This project utilizes the power of TensorFlow and TFLite on a Raspberry Pi, making it highly efficient for real-time applications.
+A Face Sentiment Detection system that employs machine learning to accurately recognize and analyze facial expressions for emotion detection. This project utilizes the power of TensorFlow and TFLite on a Raspberry Pi, making it highly efficient for real-time applications.
 
 ## Introduction
 
-Our Face Sentiment Detection System is at the forefront of emotion recognition technology. By focusing on facial sentiment analysis, our solution opens new avenues for interactive applications, customer service enhancements, and emotional research. This project demonstrates our commitment to innovative use of TensorFlow Object Detection and TFLite on resource-constrained devices like the Raspberry Pi.
+My Face Sentiment Detection System is at the forefront of emotion recognition technology. By focusing on facial sentiment analysis, our solution opens new avenues for interactive applications, customer service enhancements, and emotional research. This project demonstrates our commitment to innovative use of TensorFlow Object Detection and TFLite on resource-constrained devices like the Raspberry Pi.
 
 ## Project Overview
 
@@ -140,3 +140,34 @@ Project Organization
 - **Data Validation**: Implemented TensorFlow Data Validation (TFDV) to ensure the quality of input data, identify any anomalies, and validate the data schema.
 - **Data Pipeline**: Set up a robust data pipeline using TensorFlow Transform (TFT) for efficient data preprocessing and feature engineering.
 - **Feature Store**: Integrated a feature store for consistent feature management and to facilitate the machine learning pipeline's feature serving needs.
+
+## Milestone 4: ML Pipeline Development and Testing
+
+This milestone focuses on the integration of machine learning pipeline components including model training, evaluation, and testing.
+
+### Training and Testing Script
+
+Here's the script that includes training and evaluation of the model:
+
+![Alt text](trainmodel.png)
+
+![Alt text](evalmodel.png)
+
+## Milestone 5: Model Deployment (Front-end and Containerization)
+
+- **Front-End Development**:
+
+Developed a responsive front-end application using React.js to display real-time sentiment analysis results.
+
+![Alt text](./frontendcode.png)
+
+- **Containerization**:
+
+Packaged the application and model using Docker to streamline deployment and ensure consistency across different environments.
+
+
+## Milestone 6: CI/CD Pipeline Integration
+
+
+
+

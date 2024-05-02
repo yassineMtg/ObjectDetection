@@ -145,13 +145,24 @@ Project Organization
 
 This milestone focuses on the integration of machine learning pipeline components including model training, evaluation, and testing.
 
-### Training and Testing Script
+### Training, Evaluating, and Testing Scripts
 
 Here's the script that includes training and evaluation of the model:
 
 ![Alt text](trainmodel.png)
 
 ![Alt text](evalmodel.png)
+
+
+- **Testing scripts**:
+
+Simple testing:
+
+![Alt text](testing.png)
+
+A/B Testing:
+
+![Alt text](abtesting.png)
 
 ## Milestone 5: Model Deployment (Front-end and Containerization)
 

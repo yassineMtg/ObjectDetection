@@ -149,20 +149,20 @@ This milestone focuses on the integration of machine learning pipeline component
 
 Here's the script that includes training and evaluation of the model:
 
-![Alt text](trainmodel.png)
+![Alt text](./images/trainmodel.png)
 
-![Alt text](evalmodel.png)
+![Alt text](./images/evalmodel.png)
 
 
 - **Testing scripts**:
 
 Simple testing:
 
-![Alt text](testing.png)
+![Alt text](./images/testing.png)
 
 A/B Testing:
 
-![Alt text](abtesting.png)
+![Alt text](./images/abtesting.png)
 
 ## Milestone 5: Model Deployment (Front-end and Containerization)
 
@@ -170,23 +170,23 @@ A/B Testing:
 
 Developed a responsive front-end application using React.js to display real-time sentiment analysis results.
 
-![Alt text](./frontendcode.png)
+![Alt text](./images/frontendcode.png)
 
 
 Result:
 
-![Alt text](./fedemo.png)
+![Alt text](./images/fedemo.png)
 
 - **Containerization**:
 
-![Alt text](containarization.png)
+![Alt text](./images/containarization.png)
 
 ## Milestone 6: CI/CD Pipeline Integration
 
 CI/CD pipeline Script:
 
-![Alt text](./cicdscript.png)
+![Alt text](./images/cicdscript.png)
 
 YAML file:
 
-![Alt text](./cicdusage.png)
+![Alt text](./images/cicdusage.png)

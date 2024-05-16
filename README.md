@@ -147,6 +147,10 @@ This milestone focuses on the integration of machine learning pipeline component
 
 ### Training, Evaluating, and Testing Scripts
 
+- **Training Script**: Implemented using TensorFlow's Trainer component to handle model training.
+- **Evaluation Script**: Uses the Evaluator component to assess model performance.
+- **Testing Scripts**: Behavioral tests developed using Pytest to verify functionality under various conditions.
+
 Here's the script that includes training and evaluation of the model:
 
 ![Alt text](./images/trainmodel.png)
@@ -166,9 +170,8 @@ A/B Testing:
 
 ## Milestone 5: Model Deployment (Front-end and Containerization)
 
-- **Front-End Development**:
-
-Developed a responsive front-end application using React.js to display real-time sentiment analysis results.
+- **Front-End Development**: Developed a responsive front-end application using React.js to display real-time sentiment analysis results.
+- **Containerization**: Utilized Docker for packaging and containerizing the application to ensure consistent and reproducible deployments.
 
 ![Alt text](./images/frontendcode.png)
 
@@ -183,6 +186,8 @@ Result:
 
 ## Milestone 6: CI/CD Pipeline Integration
 
+- **CI/CD Pipeline**: Implemented a CI/CD pipeline using GitHub Actions to automate the training, testing, and deployment processes, ensuring continuous integration and delivery of updates.
+
 CI/CD pipeline Script:
 
 ![Alt text](./images/cicdscript.png)
@@ -190,3 +195,66 @@ CI/CD pipeline Script:
 YAML file:
 
 ![Alt text](./images/cicdusage.png)
+
+## Milestone 7: Monitoring and Continual Learning
+
+This milestone focuses on ensuring sustained model performance and efficiency through continuous monitoring and automated updates.
+
+### Resource Monitoring
+
+- **Energy Efficiency Measurement**: Monitors and measures the model's energy consumption during training and inference to optimize the system's energy efficiency. For instance, we calculate energy consumed in Joules and convert it to kilowatt-hours (kWh) for practical understanding
+
+### Model Performance Monitoring and Data Drift Detection
+
+- **Performance Monitoring**: Uses Evidently AI to monitor model performance and detect significant shifts in data distribution, helping maintain model accuracy over time.
+- **Data Drift Detection**: Continuous monitoring for data distribution drift ensures the model adapts to changes in input data characteristics.
+
+### Continual Learning: CT/CD Pipeline
+
+- **Continuous Training/Continuous Deployment (CT/CD)**: Ensures the model is continuously updated with new data, automatically retraining and deploying without manual intervention. GitHub Actions automate the retraining process whenever new data is available or periodically based on a schedule.
+
+### Pipeline Orchestration
+
+- **Apache Airflow**: Orchestrates the workflow of the ML pipeline, managing tasks such as data ingestion, preprocessing, model training, evaluation, and deployment. This coordination ensures that the ML pipeline operates smoothly and efficiently.
+
+## Responsible AI (Milestone 8 - Optional, 15% Bonus)
+
+### Evaluation Beyond Accuracy
+
+- **Audit Model for Bias**: Regular audits to identify and mitigate any biases in the model to ensure fair and ethical use.
+- **Model Explainability and Interpretability**: Implement methods to make the model's decisions transparent and understandable to stakeholders.
+
+## Conclusion
+
+### Summary of Achievements
+
+Developed a sophisticated ML system for face sentiment detection, leveraging advanced models and a robust pipeline, achieving high accuracy in detecting emotional states.
+
+### Lessons Learned
+
+Emphasized the critical role of high-quality data and the impact of efficient data pipeline management in achieving high model performance.
+
+### Future Directions
+
+Plan to enhance the model's capability to recognize a broader range of emotions and subtle expressions, integrate newer and more efficient ML models, and expand the application areas of the system.
+
+## References
+
+1. TensorFlow Documentation: Comprehensive insights into TensorFlow APIs and functionalities.
+ - [TensorFlow](https://www.tensorflow.org/)
+2. TFX User Guide: Detailed documentation on implementing TFX components.
+ - [TFX User Guide](https://www.tensorflow.org/tfx)
+3. Prometheus Documentation: Information on monitoring system metrics.
+ - [Prometheus](https://prometheus.io/docs/)
+4. Evidently AI: Tools for monitoring model performance and data distribution drift.
+ - [Evidently AI](https://evidentlyai.com/)
+5. Apache Airflow Documentation: Guidelines on defining, executing, and monitoring DAGs.
+ - [Apache Airflow](https://airflow.apache.org/docs/)
+6. GitHub Actions Documentation: Comprehensive guides on setting up and managing CI/CD workflows.
+ - [GitHub Actions](https://docs.github.com/en/actions)
+7. Docker Documentation: Understanding Docker commands and best practices.
+ - [Docker](https://docs.docker.com/)
+8. Cassandra Documentation: Insights into Cassandra's data model and query language.
+ - [Apache Cassandra](https://cassandra.apache.org/doc/latest/)
+9. TensorFlow Serving with Docker: Configuration and optimization of TensorFlow Serving with Docker.
+ - [Serving TensorFlow Models](https://www.tensorflow.org/tfx/guide/serving)
